@@ -1,0 +1,38 @@
+@startuml
+
+!define AWSPUML https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v14.0/dist
+
+!includeurl AWSPUML/AWSCommon.puml
+!includeurl AWSPUML/AWSCompute.puml
+!includeurl AWSPUML/AWSStorage.puml
+!includeurl AWSPUML/AWSApplicationIntegration.puml
+!includeurl AWSPUML/AWSIdentityAndAccessManagement.puml
+
+title AWS Architecture - External API Processing
+
+actor User
+
+package "AWS Services" <<Cloud>> {
+    AWSLambda(lambda_function, "Lambda Function")
+    AWSS3(s3_bucket, "S3 Bucket")
+    AWSAPIGateway(api_gateway, "API Gateway")
+    AWSIAM(iam_role_lambda, "Lambda IAM Role")
+    AWSIAM(iam_role_api_gateway, "API Gateway IAM Role")
+}
+
+User -> s3_bucket: Upload file
+
+activate lambda_function
+s3_bucket -> lambda_function: Trigger event notification
+lambda_function -> s3_bucket: Download file
+
+loop Process each row
+    lambda_function -> api_gateway: Make API call
+    api_gateway --> lambda_function: API response
+    lambda_function -> lambda_function: Process response
+end
+
+lambda_function -> s3_bucket: Complete processing
+deactivate lambda_function
+
+@enduml
