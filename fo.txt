@@ -1,1 +1,19 @@
 FinOps, or Financial Operations, brings significant benefits to organizations. Firstly, it enhances cost visibility and control, enabling businesses to optimize their cloud spending and allocate resources efficiently. By implementing FinOps practices, organizations can identify cost-saving opportunities, eliminate waste, and make informed decisions about their cloud investments. Secondly, FinOps fosters collaboration between finance, operations, and development teams, creating a shared understanding of costs and driving accountability. This collaboration leads to better financial governance, improved budgeting, and increased ROI. Ultimately, FinOps empowers organizations to achieve cost optimization, operational efficiency, and financial transparency, resulting in better financial outcomes and overall business success.
+
+© Collaboration — FinOps is not about one person at a company but a constant collaboration between engineers
+and their managers, between R&D, Operations and Financial departments, CTO, CIO and VPs offices.
+
+© Business Value — FinOps needs to be implemented to provide value for the organization. Provide for cost
+optimization and a solid RO!
+
+‘© Ownership - Stakeholders need to be able to control and take ownership of their expenses.
+© Timely Reports - Reports should be routine and concise to provide insight into cloud spend and forecasting.
+
+© Centralized Team - A FinOps team should be centralized to provide for an enterprise focused approach
+removing redundancy but provide for collaboration.
+
+© Variable Cost Model — Cloud Spending is variable and therefore the FinOps team must have processes,
+practices and tools in place to manage and monitor spending to meet the business goals.
+
+ 
+
