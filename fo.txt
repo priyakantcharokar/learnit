@@ -15,5 +15,32 @@ removing redundancy but provide for collaboration.
 © Variable Cost Model — Cloud Spending is variable and therefore the FinOps team must have processes,
 practices and tools in place to manage and monitor spending to meet the business goals.
 
+
+@ Chargeback is a policy of
+allocating resource usage costs to
+Prac Me Te
+
+@ Improves Cloud Spending
+
+@ Allocates responsibility to
+departments, groups, locations,
+etc.
+----
+
+Characteristics of Chargeback
+
+IT chargeback accounting model, individual cost
+centers are charged for their IT service based on use
+and activity. (Uses tagging)
+
+As a result, all IT costs are “zeroed out” because
+they have all been assigned to user groups. ...
+
+Chargeback allows users/business units to see their
+costs and understand how those costs are
+determined.
+
+
+
  
 
