@@ -1,3 +1,6 @@
 portrait photo of a african old warrior chief, tribal panther make up,
 gold on white, side profile, looking away, serious eyes, 50mm portrait photography,
  hard rim lighting photography-beta -ar 2:3 -beta
+
+
+https://aws.amazon.com/blogs/machine-learning/fine-tune-llama-2-for-text-generation-on-amazon-sagemaker-jumpstart/
