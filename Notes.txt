@@ -173,3 +173,26 @@ Creating an HR SaaS service requires a comprehensive set of modules to address v
 AI can greatly enhance these modules by automating repetitive tasks, providing data-driven insights, and improving user experiences. It can help in making HR processes more efficient, accurate, and employee-centric, ultimately driving organizational success.
 
 In summary, AI can significantly enhance many aspects of HR management, from automating routine tasks to providing data-driven insights and improving employee experiences. However, it's important to balance automation with the human touch to ensure a positive employee experience.
+
+
+Cost Analysis:
+
+Let's assume an average HR professional spends 5 minutes reviewing a single resume manually. If you have 100 resumes to screen daily, that would equate to 500 minutes or approximately 8.33 hours. Now, let's consider the average hourly wage for an HR professional, which may vary but let's assume $25 per hour.
+
+Manual Screening Cost:
+8.33 \, \text{hours} \times $25/\text{hour} = $208.33 \, \text{per day}
+
+Now, let's compare this to the cost of implementing an AI-driven solution.
+
+AI-driven Screening Cost:
+Assuming an initial investment of $10,000 for setting up and training the model, and a negligible operational cost since the solution is running on a constrained environment with no external internet access.
+
+If this solution lasts for a year, the daily cost can be calculated as follows:
+
+\frac{$10,000}{365 \, \text{days}} + \text{Negligible Operational Cost}
+
+This would likely result in a much lower daily cost compared to manual screening.
+
+Conclusion:
+
+While there's an upfront cost for implementing the AI-driven solution, it pays off in the long run by significantly reducing the time and costs associated with manual resume screening. The accuracy and consistency offered by the AI model also contribute to making better-informed hiring decisions.
